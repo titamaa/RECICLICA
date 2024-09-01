@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="https://cf-img.villa-finder.com/cf/xl/villas/bali-villa-home/bali-villa-home-villa-home-bali-batubelig-8-632a853b7fa7b.jpg" />
+  <ion-card>
+    <ion-card-content>
+      <p>Address: Fake street, 111</p>
+      <p>Complement: Apto 222</p>
+      <p>Neighborhood: neighborhood</p>
+      <p>Zip code: 899453</p>
+      <p>City name : Bali</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" color="success" (click)="newPickupCall()">Create pickup call</ion-button>
+</ion-content>
